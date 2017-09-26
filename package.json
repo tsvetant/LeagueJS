@@ -1,0 +1,53 @@
+{
+  "name": "leaguejs",
+  "version": "1.5.0",
+  "description": "Wrapper for the League of Legends API",
+  "keywords": [
+    "leagueoflegends",
+    "api",
+    "wrapper",
+    "client",
+    "nodejs",
+    "riot-games-api-v3"
+  ],
+  "author": {
+    "name": "Jonas Krispin",
+    "email": "github@krispin.it"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "main": "lib/LeagueJS.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Colorfulstan/LeagueJS"
+  },
+  "dependencies": {
+    "bluebird": "~3.5.0",
+    "deepmerge": "~1.3.2",
+    "node-cache": "~4.1.1",
+    "request": "~2.81.0",
+    "request-promise": "~4.2.1",
+    "riot-ratelimiter": "~0.0.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "~6.0.0",
+    "gulp": "~3.9.1",
+    "gulp-clean": "~0.3.2",
+    "gulp-exec": "~2.1.3",
+    "gulp-istanbul": "~1.1.1",
+    "gulp-jshint": "~2.0.4",
+    "gulp-mocha": "~4.3.1",
+    "isparta": "~4.0.0",
+    "mocha": "latest",
+    "plato": "~1.7.0",
+    "sinon": "latest"
+  },
+  "maintainers": [],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/claudiowilson/LeagueJS/issues"
+  },
+  "homepage": "https://github.com/Colorfulstan/LeagueJS"
+}

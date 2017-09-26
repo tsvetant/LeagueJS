@@ -1,0 +1,16 @@
+lib-cov
+*.log
+*.js.html
+pids
+logs
+results
+coverage
+report
+.idea
+.DS_Store
+npm-debug.log
+node_modules
+.vs/
+ LeagueJS.njsproj
+
+test/testConfig.json
